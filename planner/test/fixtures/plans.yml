@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Title: MyString
+  where: MyText
+  what: MyText
+  when: 2015-02-09
+  done: false
+
+two:
+  Title: MyString
+  where: MyText
+  what: MyText
+  when: 2015-02-09
+  done: false
