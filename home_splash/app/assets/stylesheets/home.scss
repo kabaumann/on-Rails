@@ -4,7 +4,15 @@
 // # acts as an id (never repeat id, for one element only, used to reference)
 #main {
   text-align: center;
-  top: 50%;
+  top: 30%;
   width: 100%;
 position: absolute;
+line-height: 1em;
+
+h1 {
+  font-family: impact;
+  font-size: 4em;
+
+  }
 }
+
