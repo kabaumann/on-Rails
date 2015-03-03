@@ -41,6 +41,8 @@ gem 'thin'
 
 # gem 'capistrano-rails', group: :development
 group :development, :test do
+  #powerful/colorful puts functionality
+  gem 'awesome_print'
   #Quiet assets:
   gem 'quiet_assets'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
