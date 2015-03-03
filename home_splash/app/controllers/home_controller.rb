@@ -1,7 +1,7 @@
 class HomeController < ApplicationController
 def index
 right_now = Time.now
-@current_time = right_now.stamp ("10:30 am")
+@current_time = right_now.stamp ("8:30 am")
 date_now = Date.today
 @current_date = date_now.stamp ("Mon Feb 23, 2015")
 @greet_message

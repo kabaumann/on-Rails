@@ -1,6 +1,8 @@
 <div id="main">
-<h1 id="clock"><%= @current_time %></h1>
-<h2 id= "date"><%= @current_date %></h2>
-<p id="greeting"><%= @greet_message %></p>
+<h1 id="clock" class="shadowed"><%= @current_time %></h1>
+<h2 id= "date" class="shadowed"><%= @current_date %></h2>
+<p id="greeting" class="shadowed"><%= fa_icon "bolt" %>
+  <%= @greet_message %>
+<%= fa_icon "bolt" %></p>
 <!-- Can reference by id with CSS or to break up project -->
 </div>
