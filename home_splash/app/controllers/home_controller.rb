@@ -17,5 +17,6 @@ when 16..19
 when 20..23, 0..4
 "Gute Nacht!"
 end
+@quote = Quote.all.sample.quip
 end
 end

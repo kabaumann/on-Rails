@@ -16,3 +16,18 @@ h1 {
   }
 }
 
+#quote {
+position: absolute;
+width: 100%;
+bottom: 10em;
+text-align: center;
+font-size: 1em;
+
+&:before {
+  content: open-quote;
+}
+
+&:after{
+  content: close-quote;
+  }
+}
