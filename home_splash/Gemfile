@@ -22,9 +22,10 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
-
+#user authentication
+gem 'clearance'
 #works with font-awesome (for icons)
-gem "font-awesome-rails"
+gem 'font-awesome-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -43,14 +44,16 @@ gem 'thin'
 group :development, :test do
   #powerful/colorful puts functionality
   gem 'awesome_print'
-  #Quiet assets:
-  gem 'quiet_assets'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 end
-
+group :development do
+  #adding mail opening abilities
+  gem 'letter_opener'
+    #Quiet assets:
+  gem 'quiet_assets'
+end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
