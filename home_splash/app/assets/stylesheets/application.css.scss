@@ -14,6 +14,7 @@
  *= require_tree .
  *= require_self
  */
+$minor-sized: 0.7em;
 
 html {
 font-family: Times;
@@ -30,11 +31,27 @@ body{
   background-color: rgb(129, 172, 199);
 }
 
+#clearance {
+  background-color: rgba(0,0,0,0.5);
+  padding: 1em 3em 3em 3em;
+  border-radius: 5px;
+  margin: 0 auto;
+  text-align: center;
+  width: 15em;
+
+a {
+  color: #eee;
+  text-decoration: none;
+  display: block;
+
+}
+}
+
 #footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: 2em;
+  height: 1em;
   background-color: rgba(0, 0, 0, .5);
   padding-top: 1em;
   color: white;
@@ -56,4 +73,15 @@ a {
 }
 .shadowed {
   text-shadow: 3px 2px 0 #000; //add shadow for contrast
+}
+
+#clearance_links {
+  font-size: $minor-sized;
+  padding: $minor-sized;
+
+  a{
+    text-decoration: none;
+    color: white;
+    display: block;
+  }
 }
