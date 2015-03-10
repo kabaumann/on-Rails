@@ -3,10 +3,11 @@
 <head>
   <title>HomeSplash</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
 </head>
 <body>
+  <div id="Home">
+<%= link_to "Home", root_path %>
+</div>
   <div id="clearance_links">
   <% if signed_in? %>
      Welcome: <%= current_user.email %>
@@ -22,10 +23,8 @@
   <% end %>
     </div>
   </div>
-
 <%= yield %>
 
 <%= render 'shared/footer' %>
-
 </body>
 </html>
