@@ -50,15 +50,15 @@ a {
   text-decoration: none;
   display: block;
 
-// .other-links {
-//   font-size: $minor-sized;
-//   margin-top: 2em;
-//   padding: 10px;
-//   border: 1px solid rgba(255, 255, 255, 0.6);
-//   border-radius: 5px;
-//   a {
-//     padding: 2px
-//   }
+.other-links {
+  font-size: $minor-sized;
+  margin-top: 2em;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  a {
+    padding: 2px
+  }
 }
 
 }
@@ -67,9 +67,11 @@ a {
   padding: 1em;
   width: 25em;
   margin: 1em;
-
-
+  border-radius: 5em;
+  font-weight: bold;
+  text-align: center;
 }
+
 #footer {
   position: absolute;
   bottom: 0;
@@ -107,4 +109,5 @@ a {
     color: white;
     display: block;
   }
+}
 }
